@@ -46,7 +46,7 @@ const SignIn = () => {
             </div>
             <div className='space-y-1'>
               <label>Password</label>
-              <input onChange={setChange} name='password' required placeholder='Password' type='text' className='py-2 px-3 outline-none w-full bg-transparent border border-slate-400 rounded-full hover:bg-slate-600 transition-all focus:bg-yellow-600 focus:border-yellow-500 focus:bg-opacity-40' />
+              <input onChange={setChange} name='password' required placeholder='Password' type='password' className='py-2 px-3 outline-none w-full bg-transparent border border-slate-400 rounded-full hover:bg-slate-600 transition-all focus:bg-yellow-600 focus:border-yellow-500 focus:bg-opacity-40' />
             </div>
             <div className='flex items-center justify-center pt-5'>
               <button onClick={signIn} className='outline-none rounded-full text-black border-yellow-500 bg-yellow-500 px-4 py-[7px] hover:bg-yellow-600 transition-all'>
